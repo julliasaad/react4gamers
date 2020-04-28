@@ -1,7 +1,7 @@
 import useInterval from '@use-it/interval';
 import React from 'react';
 import { EDirection } from '../../settings/constants';
-import { handleNextPosition } from '../../contexts/helpers';
+import { handleNextPosition } from '../../contexts/canvas/helpers';
 
 function useEnemyMovement(initialPosition) {
   const [positionState, updatePositionState] = React.useState(initialPosition);
